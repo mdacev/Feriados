@@ -1,0 +1,171 @@
+*{
+  background-color: beige;
+}
+
+.material-icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+footer{
+  margin-bottom: 0;
+  background-color: RGB(44,62,80);
+  color: white;
+  text-align: end;
+  padding: 3px;
+}
+
+section{
+  background-color: #eee;
+}
+
+.layout{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+  text-align: center;
+  padding-top: 0;
+}
+
+.caja{
+  flex-grow: 1;
+  flex-basis: calc((100% / 4) - 30px);
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #eee;
+}
+
+.mes-header{
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  background-color: rgb(139, 136, 136);
+  color: white;
+  margin-bottom: 5px;
+}
+
+.inamovible{
+  background-color: rgba(255, 0, 0, .4);
+  color: black;
+}
+
+.nolaborable{
+  background-color: rgba(255, 166, 0, .4);
+  color: black;
+}
+
+.trasladable{
+  background-color: rgba(0, 128, 0, .4);
+  color: black;
+}
+
+.puente{
+  background-color: rgba(70, 131, 180, .4);
+  color: black;
+}
+
+.dia{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+
+.mes-header{
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  background-color: rgb(139, 136, 136);
+  color: white;
+  margin-bottom: 5px;
+}
+
+#link_fer{
+  text-decoration: none;
+}
+
+.div_btns{
+  margin: 20px;
+  text-align: center;
+  padding-top: 20px;
+  height: 35px;
+}
+
+#div_opcional{
+  font-size: 18px;
+  font-weight: 600;
+  color: darkgray;
+  text-align: center;
+}
+
+#sel_tipo{
+  margin: 5px;
+  border: none;
+}
+
+.feriado-view{
+  padding-left: 30%;
+  padding-right: 30%;
+  min-height: 494px;
+}
+
+.dia-feriado{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+}
+
+a{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.not-found{
+  text-align: center;
+  color: rgb(228, 0, 0);
+  min-height: 495px;
+}
+
+.loading{
+  padding-top: 15%;
+  min-height: 495px;
+  text-align: center;
+}
+
+.modal-msg{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 28%;
+  padding-right: 28%;
+  text-align: center;
+  color: rgb(51, 50, 50);
+  background-color: #eee;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p{
+  background-color: #eee;
+}
+
+.resumen{
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resumen-align{
+  text-align: center;
+}

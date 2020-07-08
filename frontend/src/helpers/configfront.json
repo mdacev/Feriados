@@ -1,0 +1,9 @@
+{
+    "EOP_API" : "/",
+    "PATH_LISTA_FERIADOS" : "/feriados",
+    "PATH_FERIADO" : "/feriado/:id"
+}
+
+    
+
+

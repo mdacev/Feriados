@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  client:
+    container_name: feriados_frontend
+    build:
+        context: ./frontend
+        dockerfile: Dockerfile
+    image: feriados-client
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
+  api:
+    container_name: feriados_backend
+    build:
+        context: ./backend
+        dockerfile: Dockerfile
+    image: feriados-api
+    ports:
+      - 4000:4000
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
