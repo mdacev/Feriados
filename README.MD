@@ -24,11 +24,18 @@ Usando npm
 ```bash
 [DIR]\FeriadosChallenge\backend npm install
 ```
-### Run (FrontEnd y BackEnd)
+### Run FrontEnd
 
 ```bash
 npm start
 ```
+
+### Run BackEnd
+
+```bash
+npm run dev
+```
+
 #### Tener mongo corriendo local...
 ### Acceso
 #### localhost:3000
