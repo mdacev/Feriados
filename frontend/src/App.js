@@ -2,7 +2,6 @@ import React, {StrictMode} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootswatch/dist/flatly/bootstrap.min.css';
 import { BrowserRouter , Route, Switch} from 'react-router-dom'
-//import './App.css';
 
 import configfront from '../src/helpers/configfront.json' 
 import NotFound from './components/NotFound'
@@ -15,7 +14,7 @@ function App() {
     
     <div className="container mr-0 ml-0 mt-0 mb-0 col-md-12">
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a href="/api" className="navbar-brand">
+    <a href="/" className="navbar-brand">
        {`Listado de Feriados ${new Date().getFullYear()}`}
     </a>
     </nav>
