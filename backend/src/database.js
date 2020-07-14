@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const URI = process.env.MONGODB_URI ? process.env.MONGODB_URI: process.env.MONGODB_URI;
-console.log(`DB HOST => ${URI}`);
 
 mongoose.connect(URI, {
     useNewUrlParser: true,
